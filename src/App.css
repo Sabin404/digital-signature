@@ -1,0 +1,33 @@
+span{
+  color: white;
+  font-weight: bolder;
+  font-size: 20px;
+  margin-right: 10px;
+}
+input[type="color"]{
+  height: 40px;
+  width: 50px;
+  padding: auto;
+}
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
