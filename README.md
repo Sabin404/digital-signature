@@ -1,8 +1,32 @@
-# React + Vite
+Signature Capture App
+This is a React application that allows users to capture and download their signatures as an image. Users can also customize the background color and pen color of the signature canvas.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features
+Signature Capture: Users can draw their signature on a canvas.
+Clear Signature: Users can clear the canvas to redraw their signature.
+Save Signature: Users can save their signature as a PNG image.
+Customize Colors: Users can change the background color and pen color of the canvas.
+Installation
+Clone the repository:
 
-Currently, two official plugins are available:
+bash
+Copy code
+git clone https://github.com/your-username/signature-capture-app.git
+cd signature-capture-app
+Install dependencies:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+bash
+Copy code
+npm install
+Start the development server:
+
+bash
+Copy code
+npm start
+The app will be available at http://localhost:3000.
+
+Usage
+Draw your signature: Use the canvas to draw your signature.
+Clear the canvas: Click the "Clear" button to erase the signature and start over.
+Save the signature: Click the "Save" button to download the signature as a PNG image.
+Customize colors: Use the color pickers to change the background color and pen color of the canvas.
