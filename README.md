@@ -11,7 +11,7 @@ Clone the repository:
 
 bash
 Copy code
-git clone https://github.com/your-username/signature-capture-app.git
+git clone https://github.com/sabin404/signature-capture-app.git
 cd signature-capture-app
 Install dependencies:
 
