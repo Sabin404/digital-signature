@@ -31,3 +31,14 @@ input[type="color"]{
 .read-the-docs {
   color: #888;
 }
+
+.image{
+  width: 200px;        
+  height: auto;        
+  margin-top: 90px; 
+}
+
+.realimage{
+  width: 200px;
+  height: 200px;
+}
