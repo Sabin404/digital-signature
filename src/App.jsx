@@ -32,7 +32,6 @@ function App() {
       alert('Please signature first :)')
     } else {
       const dataURL = sigCanvas.current.getTrimmedCanvas().toDataURL('image/png');
-      const image = document.getElementsByClassName('image');
       setSignatureURL(dataURL);
     }
   }
@@ -50,6 +49,7 @@ function App() {
       // console.log(dataURL);
     }
   }
+ 
   return (
     <>
       <h1 className="font-bold m-9 p-4 border-b-2 text-center text-white  border-white-300">
@@ -57,12 +57,14 @@ function App() {
       </h1>
       <Input backgroundcolor={backgroundcolor} drawcolor={drawcolor} />
       <div
-        style={{ width: 600, height: 300, backgroundColor: `${bgcolor}` }}
-        className="border-2 rounded-3xl my-2  mydiv  "
-      >
+  style={{ maxWidth: '500px', height: '300px', backgroundColor: `${bgcolor}` }}
+  className="border-2 rounded-3xl my-2 mydiv mx-auto"
+>
+
         <SignatureCanvas ref={sigCanvas}
           penColor={pencolor}
-          canvasProps={{ width: 600, height: 300 }}
+          canvasProps={{ width: 500, height: 300 }}
+          style={{ width: 'fit-content', height: 'fit-content' }}
         />
       <Button Clear="Clear" Download="Download" preview="Preview" showPreview={showPreview} dataURL={signatureURL}
         clearDraw={clearDraw} download={downloadSignature} />
