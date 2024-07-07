@@ -52,7 +52,7 @@ function App() {
  
   return (
     <>
-      <h1 className="font-bold m-9 p-4 border-b-2 text-center text-white ">
+      <h1 className="font-bold m-9 p-4  text-center text-white">
       E-Signature
       </h1>
       <Input backgroundcolor={backgroundcolor} drawcolor={drawcolor} />
