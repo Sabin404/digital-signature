@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect } from "react";
-import "./App.css";
+import "./App.css?v=1.0";
 import SignatureCanvas from "react-signature-canvas";
 import Input from "./Components/Input";
 import Button from "./Components/Button";
